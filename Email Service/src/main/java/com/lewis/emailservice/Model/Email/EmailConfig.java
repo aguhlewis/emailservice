@@ -1,0 +1,56 @@
+package com.lewis.emailservice.Model.Email;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+/**
+ * Created by Lewis.Aguh on 11/10/2019
+ */
+
+@Component
+public class EmailConfig {
+
+    @Value("${spring.mail.host}")
+    private  String host;
+
+    @Value("${spring.mail.port}")
+    private  int port;
+
+    @Value("${spring.mail.username}")
+    private  String username;
+
+    public String getHost() {
+        return host;
+    }
+
+    public void setHost(String host) {
+        this.host = host;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    @Value("${spring.mail.password}")
+    private  String password;
+}

@@ -1,0 +1,11 @@
+com\lewis\emailservice\Controller\EmailController.class
+com\lewis\emailservice\Model\Exception\NotFoundException.class
+com\lewis\emailservice\Model\Ping.class
+com\lewis\emailservice\Model\Email\EmailConfig.class
+com\lewis\emailservice\Utils\ConstantUtils.class
+com\lewis\emailservice\Model\Exception\BadRequestException.class
+com\lewis\emailservice\Model\Exception\AbstractException.class
+com\lewis\emailservice\Application.class
+com\lewis\emailservice\Model\Exception\ExceptionResponse.class
+com\lewis\emailservice\Config\DCorsConfiguration.class
+com\lewis\emailservice\Model\Email\Email.class
