@@ -1,2 +1,0 @@
-<process type>: <command>
-web: java $JAVA_OPTS -cp target/classes:target/emailservice-0.0.1-SNAPSHOT.jar
